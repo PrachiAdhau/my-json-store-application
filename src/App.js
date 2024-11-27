@@ -11,8 +11,9 @@ import ViewItem from './product/ViewItem';
 function App() {
   return (
 
-    
+
     <div className="App">
+      
     <BrowserRouter>
      <Header/>
      <div className='background'>
