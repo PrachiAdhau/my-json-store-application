@@ -1,0 +1,67 @@
+{
+  "product": [
+    {
+      "id": "prod1",
+      "productName": "Cello Pen",
+      "manufacturer": "Cello pvtl",
+      "specification": "blue ball pen",
+      "quantity": 300,
+      "price": 10,
+      "Instock": true
+    },
+    {
+      "id": "prod3",
+      "productName": "watch",
+      "manufacturer": "Taitan",
+      "specification": "Roman number",
+      "quantity": "400",
+      "price": "1500",
+      "Instock": true
+    },
+    {
+      "id": "prod4",
+      "productName": "mouse",
+      "manufacturer": "Hp",
+      "specification": "wireless",
+      "quantity": "300",
+      "price": "1200",
+      "Instock": false
+    },
+    {
+      "id": "prod5",
+      "productName": "laptop",
+      "manufacturer": "Dell",
+      "specification": "gaming",
+      "quantity": "200",
+      "price": "65000",
+      "Instock": true
+    },
+    {
+      "id": "prod7",
+      "productName": "mobile",
+      "manufacturer": "samsung",
+      "specification": "cameras",
+      "quantity": "100",
+      "price": "25000",
+      "Instock": true
+    },
+    {
+      "id": "prod8",
+      "productName": "charger",
+      "manufacturer": "lenovo",
+      "specification": "fastcharging",
+      "quantity": "40",
+      "price": "1000",
+      "Instock": true
+    },
+    {
+      "id": "prod2",
+      "productName": "classmatenotebook",
+      "manufacturer": "classmate pvtl",
+      "specification": "120",
+      "quantity": 400,
+      "price": 35,
+      "Instock": false
+    }
+  ]
+}

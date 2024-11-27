@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
+import { BrowserRouter ,Route,Routes} from 'react-router-dom';
+import Header from './Header';
+import AddItem from './product/AddItem';
+import ViewItem from './product/ViewItem';
+
 
 function App() {
   return (
+
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <BrowserRouter>
+     <Header/>
+     <div className='background'>
+     <Routes>
+     <Route path="/" element={<ViewItem></ViewItem>}></Route>
+      <Route path="add" element={<AddItem></AddItem>}></Route>
+      <Route path="view" element={<ViewItem></ViewItem>}></Route>
+      <Route path='edit/:id' element={<AddItem></AddItem>}></Route>
+     </Routes>
+     </div>
+    </BrowserRouter>
     </div>
   );
 }
