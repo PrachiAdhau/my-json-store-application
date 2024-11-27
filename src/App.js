@@ -13,7 +13,7 @@ function App() {
 
 
     <div className="App">
-      
+      <h1>MyStore</h1>
     <BrowserRouter>
      <Header/>
      <div className='background'>
