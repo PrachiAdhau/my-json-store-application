@@ -38,6 +38,8 @@ axios.get('http://localhost:4000/product')
                 <th>Price</th>
                 <th>In Stock</th>
                 <th>Action</th>
+                <th>Edit</th>
+                <th>Image</th>
                 </tr>
                
             </thead>
@@ -56,7 +58,7 @@ axios.get('http://localhost:4000/product')
                         <td>
                             <Link className='btn btn-outline-primary' to={`/edit/${product.id}`} >
                             <i className="bi bi-pencil-square"></i></Link></td>
-                       
+                       <td><img src={product.Image} height="50px"/></td>
                     </tr>)
                 }
             </tbody>
